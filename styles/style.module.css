@@ -1,0 +1,42 @@
+.heroSection {
+    height: 100vh;
+    background:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.7) 30%,
+            rgba(0, 0, 0, 0.4) 60%,
+            rgba(0, 0, 0, 0) 100%),
+        url('/images/BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-inline: 92px;
+
+}
+
+.subtitle {
+    font-family: var(--font-playfair);
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    font-family: var(--font-clicker);
+    font-size: 220px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.description {
+    font-family: var(--font-playfair);
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    max-width: 530px;
+}
